@@ -1,1 +1,1 @@
-# Practise of tailwind CSS
+# Practice of tailwind CSS
