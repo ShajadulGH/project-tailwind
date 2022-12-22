@@ -7,9 +7,11 @@
     <title>Tailwind Project</title>
     <link rel="stylesheet" href="./output/tailwind.css" />
   </head>
-  <body class="h-screen flex items-center justify-center bg-gray-300">
+  <body
+    class="h-screen flex items-center justify-center bg-gray-300 dark:bg-black"
+  >
     <div
-      class="max-w-sm mx-auto p-8 bg-white rounded-xl shadow-xl space-y-2 sm:flex sm:space-x-4"
+      class="max-w-sm mx-auto p-8 bg-white rounded-xl shadow-xl space-y-2 sm:flex sm:space-x-4 dark:bg-gray-700 sm:dark:hover:bg-gray-300"
     >
       <img
         class="h-24 w-24 mx-auto rounded-full ring-4 ring-green-500 transform hover:scale-105 duration-500"
@@ -18,11 +20,15 @@
       />
       <div class="text-center space-y-2">
         <div class="space-y-2">
-          <p class="text-black font-semibold text-lg">Shajadul Karim Bhuiyan</p>
-          <p class="text-black font-medium text-sm">Software Engineer</p>
+          <p class="text-black font-semibold text-lg dark:text-white">
+            Shajadul Karim Bhuiyan
+          </p>
+          <p class="text-black font-medium text-sm dark:text-white">
+            Software Engineer
+          </p>
         </div>
         <button
-          class="border text-white bg-green-500 px-4 py-2 rounded-full font-bold text-sm transform hover:bg-green-900 hover:text-white hover:outline-none"
+          class="border text-white bg-green-500 px-4 py-2 rounded-full font-bold text-sm transform hover:bg-green-900 hover:text-white hover:outline-none dark:border-green-400 dark:hover:border-green-900"
         >
           Hire Me
         </button>
