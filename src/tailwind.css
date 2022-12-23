@@ -14,9 +14,25 @@
     @apply text-2xl;
   }
 }
-
+/* 
 @layer utilities {
   .font-size {
     font-size: 16px;
   }
+} */
+@variants hover {
+  .font-size {
+    font-size: 16px;
+  }
 }
+/* @responsive {
+  .font-size {
+    font-size: 16px;
+  }
+} */
+
+/* @screen sm {
+  .font {
+    font-size: 20px;
+  }
+} */
