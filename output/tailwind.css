@@ -832,7 +832,7 @@ h1 {
   }
 }
 
-@media (min-width: 640px) {
+@media (min-width: 540px) {
   .sm\:flex {
     display: flex;
   }
@@ -851,6 +851,15 @@ h1 {
     .sm\:dark\:hover\:bg-gray-300:hover {
       --tw-bg-opacity: 1;
       background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  @media (prefers-color-scheme: dark) {
+    .lg\:dark\:hover\:bg-gray-100:hover {
+      --tw-bg-opacity: 1;
+      background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
     }
   }
 }
