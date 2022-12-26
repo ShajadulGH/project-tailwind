@@ -9,36 +9,29 @@
   }
 }
 
-@layer base {
+/* @layer base {
   h1 {
     @apply text-2xl;
   }
-}
-/* 
+} */
 @layer utilities {
   .font-size {
     font-size: 16px;
   }
-} */
-@variants hover {
+}
+/* @layer utilities {
   .font-size {
     font-size: 16px;
   }
 }
-/* @responsive {
-  .font-size {
-    font-size: 16px;
-  }
-} */
-
-/* @screen sm {
+@screen sm {
   .font {
     font-size: 20px;
   }
 } */
 /* alternative and best way is */
-/* @media screen(sm) {
+@media screen(sm) {
   .font {
     font-size: 20px;
   }
-} */
+}
