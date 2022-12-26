@@ -37,8 +37,8 @@
   }
 } */
 /* alternative and best way is */
-@media screen(sm) {
+/* @media screen(sm) {
   .font {
     font-size: 20px;
   }
-}
+} */
